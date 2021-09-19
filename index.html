@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Assignment 1</title>
+        <style>
+            body{
+                background-color: white;
+            }
+            #outer{
+                margin: auto;
+                width: 50%;
+            }
+            header{
+                background-color: lightgray;
+                text-align: center;
+                padding: 4%;
+                margin: 2% 0% 0% 0%;
+                height: 40px;
+                font-weight: bolder;
+                font-size: 25px;
+                font-family: Calibri;
+                color: black;
+            }
+            .second_row_left_box{
+                background-color: lightgray;
+                padding: 3%;
+                width: 43%;
+                margin: 2% 0% 2% 0%;
+                float: left;
+                height: 350px;
+                font-size: 100%;
+                font-family: Calibri;
+            }
+            .second_row_right_box{
+                background-color: lightgray;
+                padding: 3%;
+                width: 43%;
+                margin: 2% 0% 2% 0%;
+                float: right;
+                height: 350px;
+                font-size: 100%;
+                font-family: Calibri;
+            }
+            .third_row{
+                background-color: gray;
+                padding: 3%;
+                width: 24%;
+                display: inline-flex;
+                margin: 2% 1% 2% 1%;
+                height: 75px;
+            }
+            footer{
+                background-color: lightgray;
+                clear: both;
+                width: 98%;
+                height: 100%;
+                padding: 0% 1% 0% 1%;
+                font-size: 70%;
+                font-family: Calibri;
+            } 
+
+        </style>
+    </head>
+    <body>
+        <div id="outer">
+            <header>
+                Rain Weather
+            </header>
+                <div class="second_row_left_box">
+                    I will use the One Call API and the API from https://openweathermap.org/current
+                    <br>
+                    <br>
+                    I plan to get data about the amount of rain that has occured or will occur in the day.
+                    <br>
+                    This can help farmers determine how much water they have to give to their crops as well as give information to everyday users
+                    <br>
+                    <br>
+                    I will collect the latitude and longitude from the authenticated users to determine where to get the weather from.
+                    <br>
+                    <br>
+                    <strong>USER -> username, password, latitude, longitude</strong>
+                    <br>
+                    The latitude and longitude will be the values they entered from last time.
+                </div>
+                <div class="second_row_right_box">
+                    Everyday people and farmers who need to know how much it will rain so they know how much to water their crops will use this site.
+                    <br>
+                    <br>
+                    Keep the site simple enough to build and to also view and use.
+                    <br>
+                    <br>
+                    I selected this topic because it is interesting.
+                    <br>
+                    Also, I am mostly new to web devlopment and this topic would be easier for me to work on. 
+                </div>
+            <footer>
+                <div class="third_row">
+                    Resource Links
+                    <br>
+                    - https://openweathermap.org/api/one-call-api
+                    <br>
+                    https://openweathermap.org/current
+                    <br>
+                    - I do not plan on modeling my site after any other sites
+                    <br>
+                    - w3schools.com
+                </div>
+                <div class="third_row">
+                    questions + Concerns
+                    <br>
+                    - What is a RESTful API?
+                    <br>
+                    - Are the APIs I'm using RESTful?
+                    <br>
+                    - Not sure if the rain amount tells us how much it has rained, or how much it will rain?
+                </div>
+                <div class="third_row">
+                    Accessibility Implementation
+                    <br>
+                    test3
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
