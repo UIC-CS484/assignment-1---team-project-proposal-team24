@@ -100,7 +100,9 @@
                     Everyday people and farmers who need to know how much it will rain so they know how much to water their crops will use this site.
                     <br>
                     <br>
-                    Keep the site simple enough to build and to also view and use.
+                    1. Keep the site simple enough to build and to also view and use.
+                    <br>
+                    2.
                     <br>
                     <br>
                     I selected this topic because it is interesting.
@@ -126,13 +128,20 @@
                     <br>
                     - Are the APIs I'm using RESTful?
                     <br>
-                    - Not sure if the rain amount tells us how much it has rained, or how much it will rain?
+                    - I am not sure if the rain amount tells us how much it has rained, or how much it will rain?
                 </div>
                 <div class="third_row">
                     Accessibility Implementation
                     <br>
                     <form>
-                        <input type = "text" name="50%, 100%, 200%">
+                        <input type="text" id="theText">
+                        <button type="button" onclick="function1()">Enter %</button>
+                        <script>
+                            function function1() {
+                                var i = document.getElementById("theText").value;
+                                document.body.style.fontSize=i+"%"; 
+                            }
+                        </script>
                     </form>
                 </div>
             </footer>
